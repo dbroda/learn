@@ -78,5 +78,28 @@ rodzaje:
 
 **Elastic File System**
 
+* Managed NFS 
+* moze byc wpiety do wielu EC2
+* dziala z EC2 w roznych AZ
+* pay per use, drogi, skalowalny, HA
+* uzywa SecurityGroup do kontroli dostepu
+* protocol NFSv4.1
+* contenent management, WordPress
+* **kompatybilny TYLKO z linux AMI**
+* Encryption at rest (KMS)
+
+Cechy
+* wspiera scalowalnosc (1k klientow na raz), 10GB/s+
+* PerformanceMode: General (def) | Max IO
+* ThroughtputMode: Bursting (dostaje kopa jak przekroczymy poziom) | Provisioned (thr niezleznie od storage) 
+| Elastic (sam sie skaluje w zaleznosci od obciazenia)
+
+StorageClasses
+
+* Storage Tiers - jak plik nieuzywany przez X dni, to zgodnie z **LifecyclePolicy**, przenies do  EFSIA
+* EFSIA - EFS Infrequent Access
+* Availability: Standard (MultiAZ) | One Zone (AZ)
+
+EFS-IA daje oszczednosci nawet 90%
 
 
