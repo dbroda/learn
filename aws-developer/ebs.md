@@ -70,8 +70,13 @@ rodzaje:
 
 **EBS Multi Attach**
 
+* io1/io2 family
+* ten sam EBS do wielu EC2 w tym samym AZ
+* do **16** EC2 na raz
+* musi uzyc FS ktory jest "cluster aware"
 
 
+**Elastic File System**
 
 
 
