@@ -35,5 +35,28 @@ rodzaje:
 * public - od AWS
 * wlasny
 * aws marketplace ami - ktos inny zrobil i spyla
-* 
+
+
+EC2 Instance store
+
+* gdy potrzeba performance
+* hardware w fizycznym serwerze
+* lepszy IO, throughput
+* ephemeral :( 
+* dobre dla cache, temp, bufor
+* backup i replikacja spada na nas
+
+
+EBS Volumes
+
+* gp2/gp3 - GeneralPurpose ssd balans price i performance [tylko jako BOOT]
+  * 1-16GB
+  * gp3: 3k iops-16k, nowszy, Thro 125Mibs - 1000Mibs niezaleznie od wielkosci dysku ?
+  * gp2: max iops = 16k, male gp2 max 3k iops, powiazane z wielkoscia dysku (5,3GB przy max iops)
+* io1/op2 - ssd low latency i high throughput [tylko jako BOOT]
+* st1 - hdd, tani do czestego dostepu 
+* sc1 - hdd, najtanszy do zadkiego dostepu
+* paramsy: size/througput/iops
+
+
 
