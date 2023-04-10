@@ -1,0 +1,27 @@
+@startmindmap
+* ec2
+  * general purpose
+    * balance
+    * compute
+    * networking
+    * storage
+  * compute-optimized
+    * high perfromance processors/computing (HPC)
+    * batch processing
+    * transcode media
+    * gaming
+    * ML
+  * memory optimized
+    * high perf databases (relational/non-relational)
+    * distribused  cahces
+    * r/t processing
+    * BI (business intelligence)
+  * storage optimized
+    * oltp
+    * cache for db (redis)
+    * (no)relational dbs
+    * data warehouse
+    * distributed FS
+
+
+@endmindmap
