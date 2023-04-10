@@ -98,7 +98,7 @@ StorageClasses
 
 * Storage Tiers - jak plik nieuzywany przez X dni, to zgodnie z **LifecyclePolicy**, przenies do  EFSIA
 * EFSIA - EFS Infrequent Access
-* Availability: Standard (MultiAZ) | One Zone (AZ)
+* Availability: Regional/Standard (MultiAZ) | One Zone (AZ)
 
 EFS-IA daje oszczednosci nawet 90%
 
