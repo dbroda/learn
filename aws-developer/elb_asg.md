@@ -61,5 +61,14 @@ Inspekcja trafficu wchodzacego o apki
 * manipulacja payloada
 * 3rd party security VirtualAppliances
   * traffic: User -> GLB -> VA -> GLB -> Application 
+* Layer 3 - IP
+* Transparent Network Gateway (caly ruch idzie przez gate) + Load Balancer
+* Uzywa protokolu GENEVE : 6081
+
+Target Groups:
+* EC2 instances
+* private IP Addresses
+
+
 
 
