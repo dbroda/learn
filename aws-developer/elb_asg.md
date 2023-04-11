@@ -31,3 +31,9 @@ Users <-SG-> LB <-SG-> EC2
   *  lambda, ec2, ec2 tasks, private IP addresses
   * takze do wielu target groups (health cehck na poziomie target groups)
   
+naglowki
+* X-Forwarded-For
+* X-Forwarded-Port
+* X-Forwarded-Proto
+
+
