@@ -51,3 +51,15 @@ Target Groups:
 * ALB
 * Health checks: TCP, http, https
 
+Problem z brakiem dostepu moze wynikac z tego ze security group na ec2 nie wpuszcza ruchu z LB
+
+**Gateway Load Balancer**
+
+Inspekcja trafficu wchodzacego o apki
+* firewalle
+* detekcja wlaman
+* manipulacja payloada
+* 3rd party security VirtualAppliances
+  * traffic: User -> GLB -> VA -> GLB -> Application 
+
+
