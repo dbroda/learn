@@ -36,4 +36,18 @@ naglowki
 * X-Forwarded-Port
 * X-Forwarded-Proto
 
+**Network Load Balancer**
+
+Layer 4 - tcp/udp
+
+* wysoka wydajnosc
+* mniejsze latency (~100ms)
+* 1 statyczne IP na AZ
+* nie ma go w FreeTier
+
+Target Groups:
+* EC2 instances
+* private IP Addresses
+* ALB
+* Health checks: TCP, http, https
 
