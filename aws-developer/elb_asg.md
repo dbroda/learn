@@ -74,8 +74,8 @@ Target Groups:
 * dziala z ALB i NLB
 * Cookies:
   * App-based:
-    * Custom: tworzone przez apke
-    * Application Cookie: tworzone przez LB
+    * Custom: tworzone przez apke, name oddzielnie dla kazdej target group. 
+    * Application Cookie: tworzone przez LB, AWSALBAPP
 
 
 
