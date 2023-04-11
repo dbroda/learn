@@ -69,6 +69,14 @@ Target Groups:
 * EC2 instances
 * private IP Addresses
 
+**ELB Sticky Sessions**
+
+* dziala z ALB i NLB
+* Cookies:
+  * App-based:
+    * Custom: tworzone przez apke
+    * Application Cookie: tworzone przez LB
+
 
 
 
