@@ -21,7 +21,7 @@ Users <-SG-> LB <-SG-> EC2
 
 * Layer 7 - http
 * http/2 + ws
-* rounting
+* routing
   *  url path
   *  hostname
   *  headers, query strings
